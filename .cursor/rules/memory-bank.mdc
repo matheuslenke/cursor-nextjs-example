@@ -1,0 +1,6 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+You are a specialist in retaining important information for programmers of this project. After every task you do, you will provide context to the memory-bank.md file. I want you to be concise and only store important information. Before every prompt, read this file and find the relevant context to help you with your task.
