@@ -45,9 +45,13 @@ export const authOptions: AuthOptions = {
   secret: process.env.NEXTAUTH_SECRET,
 
   // Optional: Customize pages, callbacks, session strategy etc.
-  // pages: {
-  //   signIn: '/auth/signin',
-  // },
+  pages: {
+    signIn: '/login', // Use our custom login page
+    // signOut: '/auth/signout', // Optional: Custom signout page
+    // error: '/auth/error', // Optional: Custom error page (e.g. /auth/error?error=Verification)
+    // verifyRequest: '/auth/verify-request', // Optional: Custom verify request page (used for email/OTP)
+    // newUser: '/auth/new-user' // Optional: Redirect new users to a specific page (e.g. /welcome)
+  },
   session: {
     strategy: "jwt", // Using JWT for session management
   },

@@ -12,7 +12,7 @@
 3.  **Authentication:**
     *   Choose an authentication provider (e.g., NextAuth.js, Clerk, Supabase Auth). ✅ (NextAuth.js)
     *   Implement login/signup pages and functionality.
-    *   Protect dashboard routes.
+    *   Protect dashboard routes. ✅
 4.  **Data Modeling & Database:**
     *   Define database schemas (e.g., `Restaurant`, `User`, `Order`, `MenuItem`, `Reservation`, `Customer`).
     *   Set up the chosen database (e.g., Supabase, Prisma with PostgreSQL).
